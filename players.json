@@ -2,7 +2,7 @@
   {
     "playerId": "P1",
     "playerName": "Lenju PK",
-    "photoUrl": "./resources/players/Lenju PK.jpg",
+    "photoUrl": "./resources/Players/Lenju PK.jpg",
     "basePrice": 5000000,
     "availabilityPercentage": 100.0,
     "WNBOStatus": "Not WnBo",
@@ -11,7 +11,7 @@
   {
     "playerId": "P2",
     "playerName": "Dinakar Krishnamurthy",
-    "photoUrl": "./resources/players/Dinakar Krishnamurthy.jpeg",
+    "photoUrl": "./resources/Players/Dinakar Krishnamurthy.jpeg",
     "basePrice": 5000000,
     "availabilityPercentage": 80.0,
     "WNBOStatus": "Not WnBo",
@@ -20,7 +20,7 @@
   {
     "playerId": "P3",
     "playerName": "Nikhil Joy",
-    "photoUrl": "./resources/players/Nikhil Joy.jpeg",
+    "photoUrl": "./resources/Players/Nikhil Joy.jpeg",
     "basePrice": 5000000,
     "availabilityPercentage": 90.0,
     "WNBOStatus": "Not WnBo",
@@ -29,7 +29,7 @@
   {
     "playerId": "P4",
     "playerName": "Dheeraj Kumar",
-    "photoUrl": "./resources/players/Dheeraj_Goswami.jpeg",
+    "photoUrl": "./resources/Players/Dheeraj_Goswami.jpeg",
     "basePrice": 5000000,
     "availabilityPercentage": 100.0,
     "WNBOStatus": "Not WnBo",
@@ -38,7 +38,7 @@
   {
     "playerId": "P5",
     "playerName": "Chirag Shah",
-    "photoUrl": "./resources/players/Chirag Shah.jpeg",
+    "photoUrl": "./resources/Players/Chirag Shah.jpeg",
     "basePrice": 5000000,
     "availabilityPercentage": 50.0,
     "WNBOStatus": "Not WnBo",
@@ -47,7 +47,7 @@
   {
     "playerId": "P6",
     "playerName": "Prakas Kannan",
-    "photoUrl": "./resources/players/PK.jpeg",
+    "photoUrl": "./resources/Players/PK.jpeg",
     "basePrice": 3000000,
     "availabilityPercentage": 100.0,
     "WNBOStatus": "Not WnBo",
@@ -56,7 +56,7 @@
   {
     "playerId": "P7",
     "playerName": "Abdul Farhan",
-    "photoUrl": "./resources/players/Abdul Farhan.jpg",
+    "photoUrl": "./resources/Players/Abdul Farhan.jpg",
     "basePrice": 3000000,
     "availabilityPercentage": 100.0,
     "WNBOStatus": "Not WnBo",
@@ -65,7 +65,7 @@
   {
     "playerId": "P8",
     "playerName": "Deebak Chandar",
-    "photoUrl": "./resources/players/Deebak Chandar.jpeg",
+    "photoUrl": "./resources/Players/Deebak Chandar.jpeg",
     "basePrice": 3000000,
     "availabilityPercentage": 80.0,
     "WNBOStatus": "Not WnBo",
@@ -74,7 +74,7 @@
   {
     "playerId": "P9",
     "playerName": "Vineet Saxena",
-    "photoUrl": "./resources/players/Vineet Saxena.jpg",
+    "photoUrl": "./resources/Players/Vineet Saxena.jpg",
     "basePrice": 3000000,
     "availabilityPercentage": 80.0,
     "WNBOStatus": "Not WnBo",
@@ -83,7 +83,7 @@
   {
     "playerId": "P10",
     "playerName": "Chandru Kcs",
-    "photoUrl": "./resources/players/Chandru Kcs.jpg",
+    "photoUrl": "./resources/Players/Chandru Kcs.jpg",
     "basePrice": 3000000,
     "availabilityPercentage": 100.0,
     "WNBOStatus": "Not WnBo",
@@ -92,7 +92,7 @@
   {
     "playerId": "P11",
     "playerName": "Selva Ganesh",
-    "photoUrl": "./resources/players/Selva Ganesh.jpg",
+    "photoUrl": "./resources/Players/Selva Ganesh.jpg",
     "basePrice": 3000000,
     "availabilityPercentage": 70.0,
     "WNBOStatus": "Not WnBo",
@@ -101,7 +101,7 @@
   {
     "playerId": "P12",
     "playerName": "Jairaj Bhagat",
-    "photoUrl": "./resources/players/Jairaj Bhagat.jpg",
+    "photoUrl": "./resources/Players/Jairaj Bhagat.jpg",
     "basePrice": 3000000,
     "availabilityPercentage": 60.0,
     "WNBOStatus": "Not WnBo",
@@ -110,7 +110,7 @@
   {
     "playerId": "P13",
     "playerName": "Vijay Nagarajan",
-    "photoUrl": "./resources/players/Vijay Nagarajan.jpg",
+    "photoUrl": "./resources/Players/Vijay Nagarajan.jpg",
     "basePrice": 2000000,
     "availabilityPercentage": 100.0,
     "WNBOStatus": "Not WnBo",
@@ -119,7 +119,7 @@
   {
     "playerId": "P14",
     "playerName": "Dilip Diyewar",
-    "photoUrl": "./resources/players/Dilip Diyewar.jpg",
+    "photoUrl": "./resources/Players/Dilip Diyewar.jpg",
     "basePrice": 2000000,
     "availabilityPercentage": 100.0,
     "WNBOStatus": "Not WnBo",
@@ -128,7 +128,7 @@
   {
     "playerId": "P15",
     "playerName": "Jay Gangireddygari",
-    "photoUrl": "./resources/players/Jay Gangireddygari.jpg",
+    "photoUrl": "./resources/Players/Jay Gangireddygari.jpg",
     "basePrice": 2000000,
     "availabilityPercentage": 100.0,
     "WNBOStatus": "Not WnBo",
@@ -137,7 +137,7 @@
   {
     "playerId": "P17",
     "playerName": "Kodanda Ramu",
-    "photoUrl": "./resources/players/Kodanda Ramu.jpg",
+    "photoUrl": "./resources/Players/Kodanda Ramu.jpg",
     "basePrice": 2000000,
     "availabilityPercentage": 50.0,
     "WNBOStatus": "Not WnBo",
@@ -146,7 +146,7 @@
   {
     "playerId": "P18",
     "playerName": "Dhaval Bhavsar",
-    "photoUrl": "./resources/players/Dhaval Bhavsar.jpg",
+    "photoUrl": "./resources/Players/Dhaval Bhavsar.jpg",
     "basePrice": 2000000,
     "availabilityPercentage": 80.0,
     "WNBOStatus": "WnBo",
@@ -155,7 +155,7 @@
   {
     "playerId": "P19",
     "playerName": "Prabhu Raman",
-    "photoUrl": "./resources/players/Prabhu Raman_.jpg",
+    "photoUrl": "./resources/Players/Prabhu Raman_.jpg",
     "basePrice": 2000000,
     "availabilityPercentage": 100.0,
     "WNBOStatus": "Not WnBo",
@@ -164,7 +164,7 @@
   {
     "playerId": "P20",
     "playerName": "Ravi Shankar Pullagura",
-    "photoUrl": "./resources/players/Ravi Shankar Pullagura.jpg",
+    "photoUrl": "./resources/Players/Ravi Shankar Pullagura.jpg",
     "basePrice": 2000000,
     "availabilityPercentage": 80.0,
     "WNBOStatus": "Not WnBo",
@@ -173,7 +173,7 @@
   {
     "playerId": "P21",
     "playerName": "Vikram Viki",
-    "photoUrl": "./resources/players/Vikram Vikki.jpeg",
+    "photoUrl": "./resources/Players/Vikram Vikki.jpeg",
     "basePrice": 2000000,
     "availabilityPercentage": 50.0,
     "WNBOStatus": "Not WnBo",
@@ -182,7 +182,7 @@
   {
     "playerId": "P22",
     "playerName": "Mohan Sivakumar",
-    "photoUrl": "./resources/players/MohanSivakumar.jpg",
+    "photoUrl": "./resources/Players/MohanSivakumar.jpg",
     "basePrice": 2000000,
     "availabilityPercentage": 70.0,
     "WNBOStatus": "Not WnBo",
@@ -191,7 +191,7 @@
   {
     "playerId": "P23",
     "playerName": "Ramashish Singh",
-    "photoUrl": "./resources/players/Ramashish Singh.jpeg",
+    "photoUrl": "./resources/Players/Ramashish Singh.jpeg",
     "basePrice": 2000000,
     "availabilityPercentage": 100.0,
     "WNBOStatus": "Not WnBo",
@@ -200,7 +200,7 @@
   {
     "playerId": "P24",
     "playerName": "Rajesh Pasupuleti",
-    "photoUrl": "./resources/players/Rajesh Pasupuleti.jpeg",
+    "photoUrl": "./resources/Players/Rajesh Pasupuleti.jpeg",
     "basePrice": 2000000,
     "availabilityPercentage": 90.0,
     "WNBOStatus": "Not WnBo",
@@ -209,7 +209,7 @@
   {
     "playerId": "P25",
     "playerName": "Murali Krish",
-    "photoUrl": "./resources/players/Murali Krish.jpeg",
+    "photoUrl": "./resources/Players/Murali Krish.jpeg",
     "basePrice": 1000000,
     "availabilityPercentage": 60.0,
     "WNBOStatus": "Not WnBo",
@@ -218,7 +218,7 @@
   {
     "playerId": "P26",
     "playerName": "Venkatesh",
-    "photoUrl": "./resources/players/Venkatesh.jpeg",
+    "photoUrl": "./resources/Players/Venkatesh.jpeg",
     "basePrice": 1000000,
     "availabilityPercentage": 90.0,
     "WNBOStatus": "Not WnBo",
@@ -227,7 +227,7 @@
   {
     "playerId": "P27",
     "playerName": "Yogesh Maheshwari",
-    "photoUrl": "./resources/players/Yogesh Maheshwari.jpg",
+    "photoUrl": "./resources/Players/Yogesh Maheshwari.jpg",
     "basePrice": 1000000,
     "availabilityPercentage": 100.0,
     "WNBOStatus": "Not WnBo",
@@ -236,7 +236,7 @@
   {
     "playerId": "P28",
     "playerName": "Ganesan Muthaiah",
-    "photoUrl": "./resources/players/Ganesan Muthaiah.jpeg",
+    "photoUrl": "./resources/Players/Ganesan Muthaiah.jpeg",
     "basePrice": 1000000,
     "availabilityPercentage": 60.0,
     "WNBOStatus": "Not WnBo",
@@ -245,7 +245,7 @@
   {
     "playerId": "P29",
     "playerName": "Karthik Vadivel",
-    "photoUrl": "./resources/players/Karthick Vadivel.jpeg",
+    "photoUrl": "./resources/Players/Karthick Vadivel.jpeg",
     "basePrice": 1000000,
     "availabilityPercentage": 60.0,
     "WNBOStatus": "Not WnBo",
@@ -254,7 +254,7 @@
   {
     "playerId": "P30",
     "playerName": "Anand Gupta",
-    "photoUrl": "./resources/players/ANAND GUPTA.jpg",
+    "photoUrl": "./resources/Players/ANAND GUPTA.jpg",
     "basePrice": 1000000,
     "availabilityPercentage": 100.0,
     "WNBOStatus": "Not WnBo",
@@ -263,7 +263,7 @@
   {
     "playerId": "P31",
     "playerName": "Naresh Reddy Maramreddy",
-    "photoUrl": "./resources/players/Naresh Reddy Maramreddy.jpg",
+    "photoUrl": "./resources/Players/Naresh Reddy Maramreddy.jpg",
     "basePrice": 1000000,
     "availabilityPercentage": 100.0,
     "WNBOStatus": "WnBo",
@@ -272,7 +272,7 @@
   {
     "playerId": "P32",
     "playerName": "Mahaboob Basha",
-    "photoUrl": "./resources/players/Mahaboob Basha.jpeg",
+    "photoUrl": "./resources/Players/Mahaboob Basha.jpeg",
     "basePrice": 1000000,
     "availabilityPercentage": 100.0,
     "WNBOStatus": "WnBo",
@@ -281,7 +281,7 @@
   {
     "playerId": "P33",
     "playerName": "Satish Kumar",
-    "photoUrl": "./resources/players/Satish Kumar.jpeg",
+    "photoUrl": "./resources/Players/Satish Kumar.jpeg",
     "basePrice": 1000000,
     "availabilityPercentage": 60.0,
     "WNBOStatus": "Not WnBo",
@@ -290,7 +290,7 @@
   {
     "playerId": "P34",
     "playerName": "Asif Khwaja",
-    "photoUrl": "./resources/players/Asif Khwaja.jpeg",
+    "photoUrl": "./resources/Players/Asif Khwaja.jpeg",
     "basePrice": 1000000,
     "availabilityPercentage": 60.0,
     "WNBOStatus": "Not WnBo",
@@ -299,7 +299,7 @@
   {
     "playerId": "P35",
     "playerName": "Ratnesh Tiwari",
-    "photoUrl": "./resources/players/Ratnesh Tiwari.jpg",
+    "photoUrl": "./resources/Players/Ratnesh Tiwari.jpg",
     "basePrice": 1000000,
     "availabilityPercentage": 80.0,
     "WNBOStatus": "Not WnBo",
@@ -308,7 +308,7 @@
   {
     "playerId": "P36",
     "playerName": "Asw Win",
-    "photoUrl": "./resources/players/Asw Win.jpeg",
+    "photoUrl": "./resources/Players/Asw Win.jpeg",
     "basePrice": 1000000,
     "availabilityPercentage": 50.0,
     "WNBOStatus": "Not WnBo",
@@ -317,7 +317,7 @@
   {
     "playerId": "P37",
     "playerName": "Naved Ali Alvi",
-    "photoUrl": "./resources/players/Naved Ali Alvi.JPG",
+    "photoUrl": "./resources/Players/Naved Ali Alvi.JPG",
     "basePrice": 1000000,
     "availabilityPercentage": 50.0,
     "WNBOStatus": "Not WnBo",
