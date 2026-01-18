@@ -359,3 +359,16 @@ function sellUnsoldPlayer(playerId) {
   unsoldPlayers = unsoldPlayers.filter(p => p.playerId !== playerId);
   updateUnsoldPlayersUI();
 }
+
+function autoSaveAuction() {
+  localStorage.setItem(
+    'auctionState',
+    JSON.stringify({ auctionData, unsoldPlayers })
+  );
+}
+
+// Call after every successful sale or skip
+autoSaveAuction();
+
+window.onbeforeunload = () =>
+  'Auction in progress. Leaving will lose unsaved data.';
