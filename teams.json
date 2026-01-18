@@ -1,0 +1,52 @@
+[
+  {
+    "teamId": "T1",
+    "teamName": "Adra Sakka",
+    "captainName": "Ajith Aji",
+    "bannerUrl": "./.resources/teams/AdraSakka.jpeg",
+    "maxBudget": 20000000,
+    "minPlayers": 5,
+    "maxPlayers": 5,
+    "remainingBudget": 20000000
+  },
+  {
+    "teamId": "T2",
+    "teamName": "Blazing Bulls",
+    "captainName": "Balanchandran",
+    "bannerUrl": "./.resources/teams/BlazingBull.jpeg",
+    "maxBudget": 20000000,
+    "minPlayers": 5,
+    "maxPlayers": 5,
+    "remainingBudget": 20000000
+  },
+  {
+    "teamId": "T3",
+    "teamName": "Mighty Tigers",
+    "captainName": "Mandeep Jagotra",
+    "bannerUrl": "./.resources/teams/MightyTigers.jpeg",
+    "maxBudget": 20000000,
+    "minPlayers": 5,
+    "maxPlayers": 5,
+    "remainingBudget": 20000000
+  },
+  {
+    "teamId": "T4",
+    "teamName": "Smashers",
+    "captainName": "Sandip Shingte",
+    "bannerUrl": "./.resources/teams/Smashers.jpeg",
+    "maxBudget": 20000000,
+    "minPlayers": 5,
+    "maxPlayers": 5,
+    "remainingBudget": 20000000
+  },
+  {
+    "teamId": "T5",
+    "teamName": "Spartans",
+    "captainName": "Siddharth Sharma",
+    "bannerUrl": "./.resources/teams/Spartans.jpeg",
+    "maxBudget": 20000000,
+    "minPlayers": 5,
+    "maxPlayers": 5,
+    "remainingBudget": 20000000
+  }
+]

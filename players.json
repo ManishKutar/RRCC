@@ -1,0 +1,326 @@
+[
+  {
+    "playerId": "P1",
+    "playerName": "Lenju PK",
+    "photoUrl": "./.resources/players/Lenju PK.jpg",
+    "basePrice": 5000000,
+    "availabilityPercentage": 100.0,
+    "WNBOStatus": "Not WnBo",
+    "availabilityComments": "Fully Available"
+  },
+  {
+    "playerId": "P2",
+    "playerName": "Dinakar Krishnamurthy",
+    "photoUrl": "./.resources/players/Dinakar Krishnamurthy.jpeg",
+    "basePrice": 5000000,
+    "availabilityPercentage": 80.0,
+    "WNBOStatus": "Not WnBo",
+    "availabilityComments": "7th Feb to 21st Feb -NA"
+  },
+  {
+    "playerId": "P3",
+    "playerName": "Nikhil Joy",
+    "photoUrl": "./.resources/players/Nikhil Joy.jpeg",
+    "basePrice": 5000000,
+    "availabilityPercentage": 90.0,
+    "WNBOStatus": "Not WnBo",
+    "availabilityComments": "7th & 8th Feb - NA"
+  },
+  {
+    "playerId": "P4",
+    "playerName": "Dheeraj Kumar",
+    "photoUrl": "./.resources/players/Dheeraj_Goswami.jpeg",
+    "basePrice": 5000000,
+    "availabilityPercentage": 100.0,
+    "WNBOStatus": "Not WnBo",
+    "availabilityComments": "Fully Available"
+  },
+  {
+    "playerId": "P5",
+    "playerName": "Chirag Shah",
+    "photoUrl": "./.resources/players/Chirag Shah.jpeg",
+    "basePrice": 5000000,
+    "availabilityPercentage": 50.0,
+    "WNBOStatus": "Not WnBo",
+    "availabilityComments": "Available on Sundays"
+  },
+  {
+    "playerId": "P6",
+    "playerName": "Prakas Kannan",
+    "photoUrl": "./.resources/players/PK.jpeg",
+    "basePrice": 3000000,
+    "availabilityPercentage": 100.0,
+    "WNBOStatus": "Not WnBo",
+    "availabilityComments": "Fully Available"
+  },
+  {
+    "playerId": "P7",
+    "playerName": "Abdul Farhan",
+    "photoUrl": "./.resources/players/Abdul Farhan.jpg",
+    "basePrice": 3000000,
+    "availabilityPercentage": 100.0,
+    "WNBOStatus": "Not WnBo",
+    "availabilityComments": "Fully Available"
+  },
+  {
+    "playerId": "P8",
+    "playerName": "Deebak Chandar",
+    "photoUrl": "./.resources/players/Deebak Chandar.jpeg",
+    "basePrice": 3000000,
+    "availabilityPercentage": 80.0,
+    "WNBOStatus": "Not WnBo",
+    "availabilityComments": "Might Miss 1 or 2 games"
+  },
+  {
+    "playerId": "P9",
+    "playerName": "Vineet Saxena",
+    "photoUrl": "./.resources/players/Vineet Saxena.jpg",
+    "basePrice": 3000000,
+    "availabilityPercentage": 80.0,
+    "WNBOStatus": "Not WnBo",
+    "availabilityComments": "Available for 6-7 core games"
+  },
+  {
+    "playerId": "P10",
+    "playerName": "Chandru Kcs",
+    "photoUrl": "./.resources/players/Chandru Kcs.jpg",
+    "basePrice": 3000000,
+    "availabilityPercentage": 100.0,
+    "WNBOStatus": "Not WnBo",
+    "availabilityComments": "Fully Available"
+  },
+  {
+    "playerId": "P11",
+    "playerName": "Selva Ganesh",
+    "photoUrl": "./.resources/players/Selva Ganesh.jpg",
+    "basePrice": 3000000,
+    "availabilityPercentage": 70.0,
+    "WNBOStatus": "Not WnBo",
+    "availabilityComments": "21st Mar to 5th Apr -NA"
+  },
+  {
+    "playerId": "P12",
+    "playerName": "Jairaj Bhagat",
+    "photoUrl": "./.resources/players/Jairaj Bhagat.jpg",
+    "basePrice": 3000000,
+    "availabilityPercentage": 60.0,
+    "WNBOStatus": "Not WnBo",
+    "availabilityComments": "7th Feb to 1st Mar -NA"
+  },
+  {
+    "playerId": "P13",
+    "playerName": "Vijay Nagarajan",
+    "photoUrl": "./.resources/players/Vijay Nagarajan.jpg",
+    "basePrice": 2000000,
+    "availabilityPercentage": 100.0,
+    "WNBOStatus": "Not WnBo",
+    "availabilityComments": "Fully Available"
+  },
+  {
+    "playerId": "P14",
+    "playerName": "Dilip Diyewar",
+    "photoUrl": "./.resources/players/Dilip Diyewar.jpg",
+    "basePrice": 2000000,
+    "availabilityPercentage": 100.0,
+    "WNBOStatus": "Not WnBo",
+    "availabilityComments": "Fully Available"
+  },
+  {
+    "playerId": "P15",
+    "playerName": "Jay Gangireddygari",
+    "photoUrl": "./.resources/players/Jay Gangireddygari.jpg",
+    "basePrice": 2000000,
+    "availabilityPercentage": 100.0,
+    "WNBOStatus": "Not WnBo",
+    "availabilityComments": "Fully Available"
+  },
+  {
+    "playerId": "P17",
+    "playerName": "Kodanda Ramu",
+    "photoUrl": "./.resources/players/Kodanda Ramu.jpg",
+    "basePrice": 2000000,
+    "availabilityPercentage": 50.0,
+    "WNBOStatus": "Not WnBo",
+    "availabilityComments": "Only available on Sunday"
+  },
+  {
+    "playerId": "P18",
+    "playerName": "Dhaval Bhavsar",
+    "photoUrl": "./.resources/players/Dhaval Bhavsar.jpg",
+    "basePrice": 2000000,
+    "availabilityPercentage": 80.0,
+    "WNBOStatus": "WnBo",
+    "availabilityComments": "(Wnbo) Available all matches except few in Feb"
+  },
+  {
+    "playerId": "P19",
+    "playerName": "Prabhu Raman",
+    "photoUrl": "./.resources/players/Prabhu Raman_.jpg",
+    "basePrice": 2000000,
+    "availabilityPercentage": 100.0,
+    "WNBOStatus": "Not WnBo",
+    "availabilityComments": "Fully Available"
+  },
+  {
+    "playerId": "P20",
+    "playerName": "Ravi Shankar Pullagura",
+    "photoUrl": "./.resources/players/Ravi Shankar Pullagura.jpg",
+    "basePrice": 2000000,
+    "availabilityPercentage": 80.0,
+    "WNBOStatus": "Not WnBo",
+    "availabilityComments": "Available for 6-7 core games"
+  },
+  {
+    "playerId": "P21",
+    "playerName": "Vikram Viki",
+    "photoUrl": "./.resources/players/Vikram Vikki.jpeg",
+    "basePrice": 2000000,
+    "availabilityPercentage": 50.0,
+    "WNBOStatus": "Not WnBo",
+    "availabilityComments": "Only available on Sunday"
+  },
+  {
+    "playerId": "P22",
+    "playerName": "Mohan Sivakumar",
+    "photoUrl": "./.resources/players/MohanSivakumar.jpg",
+    "basePrice": 2000000,
+    "availabilityPercentage": 70.0,
+    "WNBOStatus": "Not WnBo",
+    "availabilityComments": "11th Feb to 1st Mar -NA"
+  },
+  {
+    "playerId": "P23",
+    "playerName": "Ramashish Singh",
+    "photoUrl": "./.resources/players/Ramashish Singh.jpeg",
+    "basePrice": 2000000,
+    "availabilityPercentage": 100.0,
+    "WNBOStatus": "Not WnBo",
+    "availabilityComments": "Fully Available"
+  },
+  {
+    "playerId": "P24",
+    "playerName": "Rajesh Pasupuleti",
+    "photoUrl": "./.resources/players/Rajesh Pasupuleti.jpeg",
+    "basePrice": 2000000,
+    "availabilityPercentage": 90.0,
+    "WNBOStatus": "Not WnBo",
+    "availabilityComments": "Not available max 1 week in March"
+  },
+  {
+    "playerId": "P25",
+    "playerName": "Murali Krish",
+    "photoUrl": "./.resources/players/Murali Krish.jpeg",
+    "basePrice": 1000000,
+    "availabilityPercentage": 60.0,
+    "WNBOStatus": "Not WnBo",
+    "availabilityComments": "Available all Sundays, will try few sat core games"
+  },
+  {
+    "playerId": "P26",
+    "playerName": "Venkatesh",
+    "photoUrl": "./.resources/players/Venkatesh.jpeg",
+    "basePrice": 1000000,
+    "availabilityPercentage": 90.0,
+    "WNBOStatus": "Not WnBo",
+    "availabilityComments": "Not available Feb 21st and 22nd"
+  },
+  {
+    "playerId": "P27",
+    "playerName": "Yogesh Maheshwari",
+    "photoUrl": "./.resources/players/Yogesh Maheshwari.jpg",
+    "basePrice": 1000000,
+    "availabilityPercentage": 100.0,
+    "WNBOStatus": "Not WnBo",
+    "availabilityComments": "Fully Available"
+  },
+  {
+    "playerId": "P28",
+    "playerName": "Ganesan Muthaiah",
+    "photoUrl": "./.resources/players/Ganesan Muthaiah.jpeg",
+    "basePrice": 1000000,
+    "availabilityPercentage": 60.0,
+    "WNBOStatus": "Not WnBo",
+    "availabilityComments": "Available on Saturday and play on 5th Sunday"
+  },
+  {
+    "playerId": "P29",
+    "playerName": "Karthik Vadivel",
+    "photoUrl": "./.resources/players/Karthick Vadivel.jpeg",
+    "basePrice": 1000000,
+    "availabilityPercentage": 60.0,
+    "WNBOStatus": "Not WnBo",
+    "availabilityComments": "Available all Sundays, Saturday depending on core game dates"
+  },
+  {
+    "playerId": "P30",
+    "playerName": "Anand Gupta",
+    "photoUrl": "./.resources/players/ANAND GUPTA.jpg",
+    "basePrice": 1000000,
+    "availabilityPercentage": 100.0,
+    "WNBOStatus": "Not WnBo",
+    "availabilityComments": "Fully Available"
+  },
+  {
+    "playerId": "P31",
+    "playerName": "Naresh Reddy Maramreddy",
+    "photoUrl": "./.resources/players/Naresh Reddy Maramreddy.jpg",
+    "basePrice": 1000000,
+    "availabilityPercentage": 100.0,
+    "WNBOStatus": "WnBo",
+    "availabilityComments": "(Wnbo) Fully Available"
+  },
+  {
+    "playerId": "P32",
+    "playerName": "Mahaboob Basha",
+    "photoUrl": "./.resources/players/Mahaboob Basha.jpeg",
+    "basePrice": 1000000,
+    "availabilityPercentage": 100.0,
+    "WNBOStatus": "WnBo",
+    "availabilityComments": "(Wnbo) Fully Available"
+  },
+  {
+    "playerId": "P33",
+    "playerName": "Satish Kumar",
+    "photoUrl": "./.resources/players/Satish Kumar.jpeg",
+    "basePrice": 1000000,
+    "availabilityPercentage": 60.0,
+    "WNBOStatus": "Not WnBo",
+    "availabilityComments": "Available on Saturday and try to play few Saturday games"
+  },
+  {
+    "playerId": "P34",
+    "playerName": "Asif Khwaja",
+    "photoUrl": "./.resources/players/Asif Khwaja.jpeg",
+    "basePrice": 1000000,
+    "availabilityPercentage": 60.0,
+    "WNBOStatus": "Not WnBo",
+    "availabilityComments": "Available on Sundays and try to play 1-2 Saturday games"
+  },
+  {
+    "playerId": "P35",
+    "playerName": "Ratnesh Tiwari",
+    "photoUrl": "./.resources/players/Ratnesh Tiwari.jpg",
+    "basePrice": 1000000,
+    "availabilityPercentage": 80.0,
+    "WNBOStatus": "Not WnBo",
+    "availabilityComments": "Will be away for 2 weeks in Feb"
+  },
+  {
+    "playerId": "P36",
+    "playerName": "Asw Win",
+    "photoUrl": "./.resources/players/Asw Win.jpeg",
+    "basePrice": 1000000,
+    "availabilityPercentage": 50.0,
+    "WNBOStatus": "Not WnBo",
+    "availabilityComments": "Available on Sundays"
+  },
+  {
+    "playerId": "P37",
+    "playerName": "Naved Ali Alvi",
+    "photoUrl": "./.resources/players/Naved Ali Alvi.JPG",
+    "basePrice": 1000000,
+    "availabilityPercentage": 50.0,
+    "WNBOStatus": "Not WnBo",
+    "availabilityComments": "I want to be In, but not sure about my availability"
+  }
+]

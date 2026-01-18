@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cricketer Auction</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Tournament Header -->
+  <header id="tournament-header">
+    <img id="tournament-logo" src="./.resources/tournament_logo.jpeg" alt="Tournament Logo">
+    <h1 id="tournament-name">RRCC Big Bash League - 2026</h1>
+  </header>
+
+  <!-- Teams Section -->
+  <section id="teams-section">
+    <h2>Teams</h2>
+    <div id="teams-container"></div>
+  </section>
+
+  <!-- Auction Row: Next Player + Unsold Players -->
+  <section id="auction-row" style="display: flex; gap: 20px;">
+    <!-- Next Player Section -->
+    <div id="next-player-section" style="flex: 1;">
+      <h2>Next Player</h2>
+      <div id="next-player-container" style="display: flex; justify-content: center;"></div>
+      <div style="text-align: center; margin-top: 10px;">
+        <button id="skip-player-btn">Unsold</button>
+      </div>
+    </div>
+
+    <!-- Unsold Players Section -->
+    <div id="unsold-players-section" style="flex: 1;">
+      <h2>Unsold Players</h2>
+      <div id="unsold-players-container" style="display: flex; flex-wrap: wrap; gap: 10px;"></div>
+    </div>
+  </section>
+
+
+  <!-- Players Section -->
+  <section id="players-section">
+    <h2 id="players-header" style="cursor: pointer;">Players &#9660;</h2>
+    <div id="players-container"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
