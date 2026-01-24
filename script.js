@@ -126,7 +126,7 @@ function renderTeams() {
       <p>Budget: $${formatMillion(team.maxBudget)}</p>
       <p>Remaining Purse: $<span id="remaining-${team.teamId}">${formatMillion(remaining)}</span></p>
       <p>Players: ${data.selectedPlayers.length}/${team.maxPlayers}</p>
-      <h4>Selected Players:</h4>
+      <h4>Selected Players [${data.selectedPlayers.length}]:</h4>
       <ul id="selected-players-${team.teamId}">
         ${data.selectedPlayers.map(p => `<li>${p.playerName} - $${formatMillion(p.bidAmount)}</li>`).join('')}
       </ul>
