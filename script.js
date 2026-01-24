@@ -130,7 +130,6 @@ function renderTeams() {
       <ul id="selected-players-${team.teamId}">
         ${data.selectedPlayers.map(p => `<li>${p.playerName} - $${formatMillion(p.bidAmount)}</li>`).join('')}
       </ul>
-      <button onclick="resetTeam('${team.teamId}')">Reset Team</button>
     `;
     teamsContainer.appendChild(div);
   });
@@ -490,32 +489,6 @@ function nextRound() {
 function updateAllUI() {
   renderTeams();
   updateUnsoldPlayersUI();
-}
-
-// ==================== TEAM RESET ====================
-function resetTeam(teamId) {
-  if (!confirm(`Are you sure you want to reset ${teams.find(t => t.teamId === teamId).teamName}?`)) {
-    return;
-  }
-
-  const team = teams.find(t => t.teamId === teamId);
-  const data = auctionData[teamId];
-
-  // Mark players as unsold
-  data.selectedPlayers.forEach(p => {
-    const player = players.find(pl => pl.playerId === p.playerId);
-    if (player) {
-      player.isSold = false;
-    }
-  });
-
-  // Reset data
-  data.selectedPlayers = [];
-  data.budgetUsed = 0;
-
-  autoSaveAuction();
-  updateAllUI();
-  renderPlayersSection();
 }
 
 // ==================== COLLAPSIBLE PLAYERS SECTION ====================
