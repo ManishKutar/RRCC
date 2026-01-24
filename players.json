@@ -4,6 +4,7 @@
     "playerName": "Lenju PK",
     "photoUrl": "./resources/Players/Lenju PK.jpg",
     "basePrice": 5000000,
+    "round3BasePrice": 3000000,
     "availabilityPercentage": 100.0,
     "WNBOStatus": "Not WnBo",
     "availabilityComments": "Fully Available"
@@ -13,6 +14,7 @@
     "playerName": "Dinakar Krishnamurthy",
     "photoUrl": "./resources/Players/Dinakar Krishnamurthy.jpeg",
     "basePrice": 5000000,
+    "round3BasePrice": 3000000,
     "availabilityPercentage": 80.0,
     "WNBOStatus": "Not WnBo",
     "availabilityComments": "7th Feb to 21st Feb -NA"
@@ -22,6 +24,7 @@
     "playerName": "Nikhil Joy",
     "photoUrl": "./resources/Players/Nikhil Joy.jpeg",
     "basePrice": 5000000,
+    "round3BasePrice": 3000000,
     "availabilityPercentage": 90.0,
     "WNBOStatus": "Not WnBo",
     "availabilityComments": "7th & 8th Feb - NA"
@@ -31,6 +34,7 @@
     "playerName": "Dheeraj Kumar",
     "photoUrl": "./resources/Players/Dheeraj_Goswami.jpeg",
     "basePrice": 5000000,
+    "round3BasePrice": 3000000,
     "availabilityPercentage": 100.0,
     "WNBOStatus": "Not WnBo",
     "availabilityComments": "Fully Available"
@@ -40,6 +44,7 @@
     "playerName": "Chirag Shah",
     "photoUrl": "./resources/Players/Chirag Shah.jpeg",
     "basePrice": 5000000,
+    "round3BasePrice": 3000000,
     "availabilityPercentage": 50.0,
     "WNBOStatus": "Not WnBo",
     "availabilityComments": "Available on Sundays"
@@ -49,6 +54,7 @@
     "playerName": "Prakas Kannan",
     "photoUrl": "./resources/Players/PK.jpeg",
     "basePrice": 3000000,
+    "round3BasePrice": 2000000,
     "availabilityPercentage": 100.0,
     "WNBOStatus": "Not WnBo",
     "availabilityComments": "Fully Available"
@@ -58,6 +64,7 @@
     "playerName": "Abdul Farhan",
     "photoUrl": "./resources/Players/Abdul Farhan.jpg",
     "basePrice": 3000000,
+    "round3BasePrice": 2000000,
     "availabilityPercentage": 100.0,
     "WNBOStatus": "Not WnBo",
     "availabilityComments": "Fully Available"
@@ -67,6 +74,7 @@
     "playerName": "Deebak Chandar",
     "photoUrl": "./resources/Players/Deebak Chandar.jpeg",
     "basePrice": 3000000,
+    "round3BasePrice": 2000000,
     "availabilityPercentage": 80.0,
     "WNBOStatus": "Not WnBo",
     "availabilityComments": "Might Miss 1 or 2 games"
@@ -76,6 +84,7 @@
     "playerName": "Vineet Saxena",
     "photoUrl": "./resources/Players/Vineet Saxena.jpg",
     "basePrice": 3000000,
+    "round3BasePrice": 2000000,
     "availabilityPercentage": 80.0,
     "WNBOStatus": "Not WnBo",
     "availabilityComments": "Available for 6-7 core games"
@@ -85,6 +94,7 @@
     "playerName": "Chandru Kcs",
     "photoUrl": "./resources/Players/Chandru Kcs.jpg",
     "basePrice": 3000000,
+    "round3BasePrice": 2000000,
     "availabilityPercentage": 100.0,
     "WNBOStatus": "Not WnBo",
     "availabilityComments": "Fully Available"
@@ -94,6 +104,7 @@
     "playerName": "Selva Ganesh",
     "photoUrl": "./resources/Players/Selva Ganesh.jpg",
     "basePrice": 3000000,
+    "round3BasePrice": 2000000,
     "availabilityPercentage": 70.0,
     "WNBOStatus": "Not WnBo",
     "availabilityComments": "21st Mar to 5th Apr -NA"
@@ -103,6 +114,7 @@
     "playerName": "Jairaj Bhagat",
     "photoUrl": "./resources/Players/Jairaj Bhagat.jpg",
     "basePrice": 3000000,
+    "round3BasePrice": 2000000,
     "availabilityPercentage": 60.0,
     "WNBOStatus": "Not WnBo",
     "availabilityComments": "7th Feb to 1st Mar -NA"
@@ -112,6 +124,7 @@
     "playerName": "Vijay Nagarajan",
     "photoUrl": "./resources/Players/Vijay Nagarajan.jpg",
     "basePrice": 2000000,
+    "round3BasePrice": 1000000,
     "availabilityPercentage": 100.0,
     "WNBOStatus": "Not WnBo",
     "availabilityComments": "Fully Available"
@@ -121,6 +134,7 @@
     "playerName": "Dilip Diyewar",
     "photoUrl": "./resources/Players/Dilip Diyewar.jpg",
     "basePrice": 2000000,
+    "round3BasePrice": 1000000,
     "availabilityPercentage": 100.0,
     "WNBOStatus": "Not WnBo",
     "availabilityComments": "Fully Available"
@@ -130,6 +144,7 @@
     "playerName": "Jay Gangireddygari",
     "photoUrl": "./resources/Players/Jay Gangireddygari.jpg",
     "basePrice": 2000000,
+    "round3BasePrice": 1000000,
     "availabilityPercentage": 100.0,
     "WNBOStatus": "Not WnBo",
     "availabilityComments": "Fully Available"
@@ -139,6 +154,7 @@
     "playerName": "Kodanda Ramu",
     "photoUrl": "./resources/Players/Kodanda Ramu.jpg",
     "basePrice": 2000000,
+    "round3BasePrice": 1000000,
     "availabilityPercentage": 50.0,
     "WNBOStatus": "Not WnBo",
     "availabilityComments": "Only available on Sunday"
@@ -148,6 +164,7 @@
     "playerName": "Dhaval Bhavsar",
     "photoUrl": "./resources/Players/Dhaval Bhavsar.jpg",
     "basePrice": 2000000,
+    "round3BasePrice": 1000000,
     "availabilityPercentage": 80.0,
     "WNBOStatus": "WnBo",
     "availabilityComments": "(Wnbo) Available all matches except few in Feb"
@@ -157,6 +174,7 @@
     "playerName": "Prabhu Raman",
     "photoUrl": "./resources/Players/Prabhu Raman_.jpg",
     "basePrice": 2000000,
+    "round3BasePrice": 1000000,
     "availabilityPercentage": 100.0,
     "WNBOStatus": "Not WnBo",
     "availabilityComments": "Fully Available"
@@ -166,6 +184,7 @@
     "playerName": "Ravi Shankar Pullagura",
     "photoUrl": "./resources/Players/Ravi Shankar Pullagura.jpg",
     "basePrice": 2000000,
+    "round3BasePrice": 1000000,
     "availabilityPercentage": 80.0,
     "WNBOStatus": "Not WnBo",
     "availabilityComments": "Available for 6-7 core games"
@@ -175,6 +194,7 @@
     "playerName": "Vikram Viki",
     "photoUrl": "./resources/Players/Vikram Vikki.jpeg",
     "basePrice": 2000000,
+    "round3BasePrice": 1000000,
     "availabilityPercentage": 50.0,
     "WNBOStatus": "Not WnBo",
     "availabilityComments": "Only available on Sunday"
@@ -184,6 +204,7 @@
     "playerName": "Mohan Sivakumar",
     "photoUrl": "./resources/Players/MohanSivakumar.jpg",
     "basePrice": 2000000,
+    "round3BasePrice": 1000000,
     "availabilityPercentage": 70.0,
     "WNBOStatus": "Not WnBo",
     "availabilityComments": "11th Feb to 1st Mar -NA"
@@ -193,6 +214,7 @@
     "playerName": "Ramashish Singh",
     "photoUrl": "./resources/Players/Ramashish Singh.jpeg",
     "basePrice": 2000000,
+    "round3BasePrice": 1000000,
     "availabilityPercentage": 100.0,
     "WNBOStatus": "Not WnBo",
     "availabilityComments": "Fully Available"
@@ -202,6 +224,7 @@
     "playerName": "Rajesh Pasupuleti",
     "photoUrl": "./resources/Players/Rajesh Pasupuleti.jpeg",
     "basePrice": 2000000,
+    "round3BasePrice": 1000000,
     "availabilityPercentage": 90.0,
     "WNBOStatus": "Not WnBo",
     "availabilityComments": "Not available max 1 week in March"
@@ -211,6 +234,7 @@
     "playerName": "Murali Krish",
     "photoUrl": "./resources/Players/Murali Krish.jpeg",
     "basePrice": 1000000,
+    "round3BasePrice": 1000000,
     "availabilityPercentage": 60.0,
     "WNBOStatus": "Not WnBo",
     "availabilityComments": "Available all Sundays, will try few sat core games"
@@ -220,6 +244,7 @@
     "playerName": "Venkatesh",
     "photoUrl": "./resources/Players/Venkatesh.jpeg",
     "basePrice": 1000000,
+    "round3BasePrice": 1000000,
     "availabilityPercentage": 90.0,
     "WNBOStatus": "Not WnBo",
     "availabilityComments": "Not available Feb 21st and 22nd"
@@ -229,6 +254,7 @@
     "playerName": "Yogesh Maheshwari",
     "photoUrl": "./resources/Players/Yogesh Maheshwari.jpg",
     "basePrice": 1000000,
+    "round3BasePrice": 1000000,
     "availabilityPercentage": 100.0,
     "WNBOStatus": "Not WnBo",
     "availabilityComments": "Fully Available"
@@ -238,6 +264,7 @@
     "playerName": "Ganesan Muthaiah",
     "photoUrl": "./resources/Players/Ganesan Muthaiah.jpeg",
     "basePrice": 1000000,
+    "round3BasePrice": 1000000,
     "availabilityPercentage": 60.0,
     "WNBOStatus": "Not WnBo",
     "availabilityComments": "Available on Saturday and play on 5th Sunday"
@@ -247,6 +274,7 @@
     "playerName": "Karthik Vadivel",
     "photoUrl": "./resources/Players/Karthick Vadivel.jpeg",
     "basePrice": 1000000,
+    "round3BasePrice": 1000000,
     "availabilityPercentage": 60.0,
     "WNBOStatus": "Not WnBo",
     "availabilityComments": "Available all Sundays, Saturday depending on core game dates"
@@ -256,6 +284,7 @@
     "playerName": "Anand Gupta",
     "photoUrl": "./resources/Players/ANAND GUPTA.jpg",
     "basePrice": 1000000,
+    "round3BasePrice": 1000000,
     "availabilityPercentage": 100.0,
     "WNBOStatus": "Not WnBo",
     "availabilityComments": "Fully Available"
@@ -265,6 +294,7 @@
     "playerName": "Naresh Reddy Maramreddy",
     "photoUrl": "./resources/Players/Naresh Reddy Maramreddy.jpg",
     "basePrice": 1000000,
+    "round3BasePrice": 1000000,
     "availabilityPercentage": 100.0,
     "WNBOStatus": "WnBo",
     "availabilityComments": "(Wnbo) Fully Available"
@@ -274,6 +304,7 @@
     "playerName": "Mahaboob Basha",
     "photoUrl": "./resources/Players/Mahaboob Basha.jpeg",
     "basePrice": 1000000,
+    "round3BasePrice": 1000000,
     "availabilityPercentage": 100.0,
     "WNBOStatus": "WnBo",
     "availabilityComments": "(Wnbo) Fully Available"
@@ -283,6 +314,7 @@
     "playerName": "Satish Kumar",
     "photoUrl": "./resources/Players/Satish Kumar.jpeg",
     "basePrice": 1000000,
+    "round3BasePrice": 1000000,
     "availabilityPercentage": 60.0,
     "WNBOStatus": "Not WnBo",
     "availabilityComments": "Available on Saturday and try to play few Saturday games"
@@ -292,6 +324,7 @@
     "playerName": "Asif Khwaja",
     "photoUrl": "./resources/Players/Asif Khwaja.jpeg",
     "basePrice": 1000000,
+    "round3BasePrice": 1000000,
     "availabilityPercentage": 60.0,
     "WNBOStatus": "Not WnBo",
     "availabilityComments": "Available on Sundays and try to play 1-2 Saturday games"
@@ -301,6 +334,7 @@
     "playerName": "Ratnesh Tiwari",
     "photoUrl": "./resources/Players/Ratnesh Tiwari.jpg",
     "basePrice": 1000000,
+    "round3BasePrice": 1000000,
     "availabilityPercentage": 80.0,
     "WNBOStatus": "Not WnBo",
     "availabilityComments": "Will be away for 2 weeks in Feb"
@@ -310,6 +344,7 @@
     "playerName": "Asw Win",
     "photoUrl": "./resources/Players/Asw Win.jpeg",
     "basePrice": 1000000,
+    "round3BasePrice": 1000000,
     "availabilityPercentage": 50.0,
     "WNBOStatus": "Not WnBo",
     "availabilityComments": "Available on Sundays"
@@ -319,6 +354,7 @@
     "playerName": "Naved Ali Alvi",
     "photoUrl": "./resources/Players/Naved Ali Alvi.JPG",
     "basePrice": 1000000,
+    "round3BasePrice": 1000000,
     "availabilityPercentage": 50.0,
     "WNBOStatus": "Not WnBo",
     "availabilityComments": "I want to be In, but not sure about my availability"
