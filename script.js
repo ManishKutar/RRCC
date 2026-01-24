@@ -372,47 +372,77 @@ function updateUnsoldPlayersUI() {
   const container = document.getElementById('unsold-players-container');
   container.innerHTML = '';
 
-  unsoldPlayers.forEach(player => {
-    const basePrice = getBasePriceForRound(player);
-    const div = document.createElement('div');
-    div.className = 'player-card';
-    div.id = `unsold-${player.playerId}`;
-    div.style.width = '150px';
-    div.innerHTML = `
-      <img src="${player.photoUrl}" alt="${player.playerName}">
-      <h4>${player.playerName}</h4>
-      <p>Base Price: $${formatMillion(basePrice)}</p>
-      <select>
-        ${teams.map(t => `<option value="${t.teamId}">${t.teamName}</option>`).join('')}
-      </select>
-      <input type="number" min="${basePrice}" placeholder="Enter bid">
-      <button onclick="sellUnsoldPlayer('${player.playerId}')">Sell</button>
-      <p id="unsold-bid-status-${player.playerId}"></p>
+  // Add count header
+  const countDiv = document.createElement('div');
+  countDiv.style.marginBottom = '10px';
+  countDiv.innerHTML = `<h3>Total Unsold: <span id="unsold-count">${unsoldPlayers.length}</span></h3>`;
+  container.appendChild(countDiv);
+
+  // Create table for unsold players
+  if (unsoldPlayers.length > 0) {
+    const table = document.createElement('table');
+    table.style.width = '100%';
+    table.style.borderCollapse = 'collapse';
+    table.innerHTML = `
+      <thead>
+        <tr>
+          <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Player Name</th>
+          <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Team</th>
+          <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Bid</th>
+          <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Action</th>
+        </tr>
+      </thead>
+      <tbody id="unsold-table-body"></tbody>
     `;
-    container.appendChild(div);
-  });
+    container.appendChild(table);
+
+    const tbody = table.querySelector('#unsold-table-body');
+    unsoldPlayers.forEach(player => {
+      const basePrice = getBasePriceForRound(player);
+      const row = document.createElement('tr');
+      row.id = `unsold-${player.playerId}`;
+      row.innerHTML = `
+        <td style="border: 1px solid #ddd; padding: 8px;">${player.playerName}</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">
+          <select style="width: 100%;">
+            ${teams.map(t => `<option value="${t.teamId}">${t.teamName}</option>`).join('')}
+          </select>
+        </td>
+        <td style="border: 1px solid #ddd; padding: 8px;">
+          <input type="number" min="${basePrice}" placeholder="Bid" style="width: 100%;">
+        </td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">
+          <button onclick="sellUnsoldPlayer('${player.playerId}')" style="padding: 5px 10px;">Sell</button>
+        </td>
+      </tr>`;
+      tbody.appendChild(row);
+    });
+  } else {
+    const emptyMsg = document.createElement('p');
+    emptyMsg.textContent = 'No unsold players';
+    container.appendChild(emptyMsg);
+  }
 }
 
 function sellUnsoldPlayer(playerId) {
   const player = unsoldPlayers.find(p => p.playerId === playerId);
-  const div = document.getElementById(`unsold-${playerId}`);
-  const bidInput = div.querySelector('input');
-  const teamSelect = div.querySelector('select');
+  const row = document.getElementById(`unsold-${playerId}`);
+  const bidInput = row.querySelector('input');
+  const teamSelect = row.querySelector('select');
   const bidAmount = Number(bidInput.value);
   const teamId = teamSelect.value;
   const team = teams.find(t => t.teamId === teamId);
   const data = auctionData[teamId];
-  const statusEl = div.querySelector(`#unsold-bid-status-${playerId}`);
 
   const basePrice = getBasePriceForRound(player);
 
   if (!bidAmount || bidAmount < basePrice) {
-    statusEl.textContent = `Bid must be at least $${formatMillion(basePrice)}.`;
+    alert(`Bid must be at least $${formatMillion(basePrice)}.`);
     return;
   }
 
   if (data.selectedPlayers.length >= team.maxPlayers) {
-    statusEl.textContent = "Team has reached maximum players.";
+    alert("Team has reached maximum players.");
     return;
   }
 
@@ -420,18 +450,17 @@ function sellUnsoldPlayer(playerId) {
   const minRequiredBudget = remainingSpots * MIN_PER_PLAYER;
 
   if ((data.budgetUsed + bidAmount + minRequiredBudget) > team.maxBudget) {
-    statusEl.textContent = `Bid too high. Must reserve $${formatMillion(MIN_PER_PLAYER)} per spot.`;
+    alert(`Bid too high. Must reserve $${formatMillion(MIN_PER_PLAYER)} per spot.`);
     return;
   }
 
   if ((data.budgetUsed + bidAmount) > team.maxBudget) {
-    statusEl.textContent = "Team budget exceeded.";
+    alert("Team budget exceeded.");
     return;
   }
 
   // Finalize sale
   finalizeSale(playerId, teamId, bidAmount);
-  statusEl.textContent = `✓ Sold to ${team.teamName} for $${formatMillion(bidAmount)}`;
 
   unsoldPlayers = unsoldPlayers.filter(p => p.playerId !== playerId);
   autoSaveAuction();
@@ -452,6 +481,7 @@ function nextRound() {
   }
 
   currentRound++;
+  unsoldPlayers = []; // Reset unsold players for new round
   initializeRound();
   renderPlayersSection();
   autoSaveAuction();
