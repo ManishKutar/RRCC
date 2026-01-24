@@ -147,6 +147,7 @@ function renderPlayersSection() {
     const div = document.createElement('div');
     div.className = 'player-card';
     div.id = `player-${player.playerId}`;
+    div.style.backgroundColor = player.isSold ? '#ffcccc' : '';
     div.innerHTML = `
       <img src="${player.photoUrl}" alt="${player.playerName}">
       <h4>${player.playerName}</h4>
