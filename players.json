@@ -242,7 +242,7 @@
   {
     "playerId": "P26",
     "playerName": "Venkatesh",
-    "photoUrl": "./resources/Players/Venkatesh.jpeg",
+    "photoUrl": "./resources/Players/Venkatesh.jpg",
     "basePrice": 1000000,
     "round3BasePrice": 1000000,
     "availabilityPercentage": 90.0,
