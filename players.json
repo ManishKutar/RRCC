@@ -2,7 +2,7 @@
   {
     "playerId": "P1",
     "playerName": "Lenju PK",
-    "photoUrl": "./resources/Players/Lenju PK.jpg",
+    "photoUrl": "./resources/Players/Lenju PK.JPG",
     "basePrice": 5000000,
     "round3BasePrice": 3000000,
     "availabilityPercentage": 100.0,
@@ -52,7 +52,7 @@
   {
     "playerId": "P6",
     "playerName": "Prakas Kannan",
-    "photoUrl": "./resources/Players/PK.jpeg",
+    "photoUrl": "./resources/Players/PK.heic",
     "basePrice": 3000000,
     "round3BasePrice": 2000000,
     "availabilityPercentage": 100.0,
@@ -92,7 +92,7 @@
   {
     "playerId": "P10",
     "playerName": "Chandru Kcs",
-    "photoUrl": "./resources/Players/Chandru Kcs.jpg",
+    "photoUrl": "./resources/Players/Chandru kcs.jpg",
     "basePrice": 3000000,
     "round3BasePrice": 2000000,
     "availabilityPercentage": 100.0,
@@ -102,7 +102,7 @@
   {
     "playerId": "P11",
     "playerName": "Selva Ganesh",
-    "photoUrl": "./resources/Players/Selva Ganesh.jpg",
+    "photoUrl": "./resources/Players/Selva Ganesh.JPG",
     "basePrice": 3000000,
     "round3BasePrice": 2000000,
     "availabilityPercentage": 70.0,
@@ -182,7 +182,7 @@
   {
     "playerId": "P20",
     "playerName": "Ravi Shankar Pullagura",
-    "photoUrl": "./resources/Players/Ravi Shankar Pullagura.jpg",
+    "photoUrl": "./resources/Players/Ravi Shankar Pullagura.JPG",
     "basePrice": 2000000,
     "round3BasePrice": 1000000,
     "availabilityPercentage": 80.0,
