@@ -128,7 +128,15 @@ function renderTeams() {
       <p>Players: ${data.selectedPlayers.length}/${team.maxPlayers}</p>
       <h4>Selected Players [${data.selectedPlayers.length}]:</h4>
       <ul id="selected-players-${team.teamId}">
-        ${data.selectedPlayers.map(p => `<li>${p.playerName} - $${formatMillion(p.bidAmount)}</li>`).join('')}
+        ${data.selectedPlayers.map(p => `
+          <li style="display: flex; justify-content: space-between; align-items: center; padding: 5px 0; border-bottom: 1px solid #eee;">
+            <span>${p.playerName} - $${formatMillion(p.bidAmount)}</span>
+            <div style="display: flex; gap: 5px;">
+              <button onclick="editSale('${p.playerId}', '${team.teamId}')" style="padding: 3px 8px; font-size: 12px;">Edit Bid</button>
+              <button onclick="changePlayerTeam('${p.playerId}', '${team.teamId}')" style="padding: 3px 8px; font-size: 12px;">Change Team</button>
+            </div>
+          </li>
+        `).join('')}
       </ul>
     `;
     teamsContainer.appendChild(div);
@@ -267,6 +275,102 @@ function finalizeSale(playerId, teamId, bidAmount) {
   data.selectedPlayers.push({ ...player, bidAmount });
   data.budgetUsed += bidAmount;
   player.isSold = true;
+}
+
+// Add this new function in the BIDDING section
+
+// ==================== EDIT SALES ====================
+function editSale(playerId, teamId) {
+  const player = players.find(p => p.playerId === playerId);
+  const team = teams.find(t => t.teamId === teamId);
+  const data = auctionData[teamId];
+  
+  const saleIndex = data.selectedPlayers.findIndex(p => p.playerId === playerId);
+  if (saleIndex === -1) return;
+  
+  const currentSale = data.selectedPlayers[saleIndex];
+  const newBidAmount = prompt(
+    `Edit bid amount for ${player.playerName}\nCurrent: $${formatMillion(currentSale.bidAmount)}\nEnter new amount:`,
+    currentSale.bidAmount
+  );
+  
+  if (newBidAmount === null) return; // User cancelled
+  
+  const oldBidAmount = currentSale.bidAmount;
+  const updatedBid = Number(newBidAmount);
+  
+  if (!updatedBid || updatedBid < getBasePriceForRound(player)) {
+    alert(`Bid must be at least $${formatMillion(getBasePriceForRound(player))}`);
+    return;
+  }
+  
+  // Check if new bid exceeds budget
+  const budgetDifference = updatedBid - oldBidAmount;
+  if ((data.budgetUsed + budgetDifference) > team.maxBudget) {
+    alert(`Budget exceeded. Team only has $${formatMillion(team.maxBudget - data.budgetUsed + oldBidAmount)} available.`);
+    return;
+  }
+  
+  // Update the sale
+  data.selectedPlayers[saleIndex].bidAmount = updatedBid;
+  data.budgetUsed += budgetDifference;
+  
+  autoSaveAuction();
+  updateAllUI();
+  alert(`✓ Updated ${player.playerName} bid to $${formatMillion(updatedBid)}`);
+}
+
+function changePlayerTeam(playerId, oldTeamId) {
+  const player = players.find(p => p.playerId === playerId);
+  const oldTeam = teams.find(t => t.teamId === oldTeamId);
+  const oldData = auctionData[oldTeamId];
+  
+  const saleIndex = oldData.selectedPlayers.findIndex(p => p.playerId === playerId);
+  if (saleIndex === -1) return;
+  
+  const currentSale = oldData.selectedPlayers[saleIndex];
+  
+  // Create team selection dialog
+  const teamOptions = teams.map((t, i) => `${i + 1}. ${t.teamName}`).join('\n');
+  const newTeamIndex = prompt(
+    `Select new team for ${player.playerName}:\n${teamOptions}\nEnter number:`,
+    '1'
+  );
+  
+  if (newTeamIndex === null) return;
+  
+  const newTeamId = teams[Number(newTeamIndex) - 1]?.teamId;
+  if (!newTeamId) {
+    alert('Invalid team selection');
+    return;
+  }
+  
+  if (newTeamId === oldTeamId) return;
+  
+  const newTeam = teams.find(t => t.teamId === newTeamId);
+  const newData = auctionData[newTeamId];
+  
+  if (newData.selectedPlayers.length >= newTeam.maxPlayers) {
+    alert(`${newTeam.teamName} has reached maximum players.`);
+    return;
+  }
+  
+  if ((newData.budgetUsed + currentSale.bidAmount) > newTeam.maxBudget) {
+    alert(`${newTeam.teamName} budget exceeded.`);
+    return;
+  }
+  
+  // Remove from old team
+  oldData.selectedPlayers.splice(saleIndex, 1);
+  oldData.budgetUsed -= currentSale.bidAmount;
+  
+  // Add to new team
+  newData.selectedPlayers.push(currentSale);
+  newData.budgetUsed += currentSale.bidAmount;
+  
+  autoSaveAuction();
+  updateAllUI();
+  alert(`✓ Moved ${player.playerName} to ${newTeam.teamName}`);
 }
 
 // ==================== NEXT PLAYER SECTION ====================
