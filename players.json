@@ -358,5 +358,15 @@
     "availabilityPercentage": 50.0,
     "WNBOStatus": "Not WnBo",
     "availabilityComments": "I want to be In, but not sure about my availability"
+  },
+  {
+    "playerId": "P38",
+    "playerName": "Sikander Basha",
+    "photoUrl": "./resources/Players/Sikander Basha.jpeg",
+    "basePrice": 1000000,
+    "round3BasePrice": 1000000,
+    "availabilityPercentage": 50.0,
+    "WNBOStatus": "Not WnBo",
+    "availabilityComments": "Lately joined for auction"
   }
 ]
